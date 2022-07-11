@@ -5,17 +5,39 @@ const { token } = require('./config.json');
 
 guildid = "681797849926860810";
 
- client = new Client();
- client1 = new Client();
- client2 = new Client();
- client3 = new Client();
- client4 = new Client();
- client5 = new Client();
- client6 = new Client();
- client7 = new Client();
- client8 = new Client();
- client9 = new Client();
- client10 = new Client();
+ client = new Client({
+checkUpdate: false,
+});
+ client1 = new Client({
+checkUpdate: false,
+});
+ client2 = new Client({
+checkUpdate: false,
+});
+ client3 = new Client({
+checkUpdate: false,
+});
+ client4 = new Client({
+checkUpdate: false,
+});
+ client5 = new Client({
+checkUpdate: false,
+});
+ client6 = new Client({
+checkUpdate: false,
+});
+ client7 = new Client({
+checkUpdate: false,
+});
+ client8 = new Client({
+checkUpdate: false,
+});
+ client9 = new Client({
+checkUpdate: false,
+});
+ client10 = new Client({
+checkUpdate: false,
+});
 
 client.on('ready', async () => {
     
