@@ -6,6 +6,9 @@ const { token } = require('./config.json');
 guildid = "681797849926860810";
 
  client = new Client();
+ cleint1 = new Client();
+ cleint2 = new Client();
+ cleint3 = new Client();
 
 client.on('ready', async () => {
     
@@ -31,6 +34,9 @@ connection.on(VoiceConnectionStatus.Ready, async () => {
  
   
 client.login(process.env.LOGIN);
+client1.login(process.env.LOGIN1);
+client2.login(process.env.LOGIN2);
+client3.login(process.env.LOGIN3);
 
  
 
