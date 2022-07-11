@@ -3,7 +3,7 @@ const { Client, Channel } = require('discord.js-selfbot-v13');
 const { token } = require('./config.json');
 
 
-guildid = "983193866620514324";
+guildid = "681797849926860810";
 
  client = new Client();
 
@@ -12,7 +12,7 @@ client.on('ready', async () => {
 
 
  const connextion =   joinVoiceChannel({
-        channelId: "983193867090284604",
+        channelId: "994101821436067870",
         guildId: guildid,
         adapterCreator: client.guilds.cache.get(guildid).voiceAdapterCreator,
 });
@@ -30,7 +30,7 @@ connextion.on(VoiceConnectionStatus.Ready, async () => {
 
  
   
-client.login(token);
+client.login(process.env.LOGIN);
 
  
 
