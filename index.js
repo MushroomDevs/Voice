@@ -6,9 +6,9 @@ const { token } = require('./config.json');
 guildid = "681797849926860810";
 
  client = new Client();
- cleint1 = new Client();
- cleint2 = new Client();
- cleint3 = new Client();
+ client1 = new Client();
+ client2 = new Client();
+ client3 = new Client();
 
 client.on('ready', async () => {
     
